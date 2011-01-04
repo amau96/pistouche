@@ -1,0 +1,262 @@
+TQuizzGeoVin
+v7
+r0
+t315865786.798727
+cCheck dependencies
+cProcessInfoPlistFile /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/Info.plist QuizzGeoVin-Info.plist
+cCompileXIB /Users/amauryblanc/Documents/git/QuizzGeoVin/MainWindow.xib
+cCompileXIB /Users/amauryblanc/Documents/git/QuizzGeoVin/RootViewController.xib
+cProcessPCH /var/folders/K8/K8hKTKBFH+ysXinbJJr04U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuizzGeoVin_Prefix-hibjfvuktqmdedfomyyjqouasmbw/QuizzGeoVin_Prefix.pch.gch QuizzGeoVin_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/main.o /Users/amauryblanc/Documents/git/QuizzGeoVin/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/QuizzGeoVinAppDelegate.o /Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/QuizzGeoVinAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/RootViewController.o /Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin normal i386
+cGenerateDSYMFile /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app.dSYM /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin
+cTouch /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C857A4F0000000000000132
+t1283816015
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/QuizzGeoVinAppDelegate.h
+c000000004D23832C00000000000001E0
+t1294172972
+s480
+i<UIKit/UIKit.h>
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/QuizzGeoVinAppDelegate.m
+c000000004D23832C0000000000000AAE
+t1294172972
+s2734
+i"QuizzGeoVinAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/RootViewController.h
+c000000004D23832C00000000000000F0
+t1294172972
+s240
+i<UIKit/UIKit.h>
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/RootViewController.m
+c000000004D23832C00000000000010C8
+t1294172972
+s4296
+i"RootViewController.h"
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/MainWindow.xib
+c000000004D23832C0000000000006004
+t1294172972
+s24580
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/QuizzGeoVin_Prefix.pch
+c000000004D23832C0000000000000148
+t1294172972
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/RootViewController.xib
+c000000004D23832C0000000000004456
+t1294172972
+s17494
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app
+t1294172986
+s238
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app.dSYM
+t1294172986
+s102
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/Info.plist
+t1294172983
+s607
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/MainWindow.nib
+t1294172984
+s1513
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/PkgInfo
+t1294172983
+s8
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin
+t1294172986
+s18184
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/RootViewController.nib
+t1294172984
+s979
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/QuizzGeoVin.LinkFileList
+c000000004D23833700000000000001B8
+t1294172983
+s440
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/QuizzGeoVinAppDelegate.o
+t1294172986
+s49616
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/RootViewController.o
+t1294172986
+s38068
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/main.o
+t1294172986
+s6316
+
+N/Users/amauryblanc/Documents/git/QuizzGeoVin/main.m
+c000000004D23832C000000000000016E
+t1294172972
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/K8/K8hKTKBFH+ysXinbJJr04U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuizzGeoVin_Prefix-hibjfvuktqmdedfomyyjqouasmbw/QuizzGeoVin_Prefix.pch.gch
+t1294172986
+s15232016
+
+NQuizzGeoVin-Info.plist
+c000000004D23832C000000000000038D
+t1294172972
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315865783#315865783#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/QuizzGeoVinAppDelegate.o /Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/QuizzGeoVinAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315865786.349863
+e315865786.497347
+r1
+xCompileC
+xbuild/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/QuizzGeoVinAppDelegate.o
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/QuizzGeoVinAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/QuizzGeoVinAppDelegate.m315865786#315865786#0(0"0(0#0#77"/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/QuizzGeoVinAppDelegate.m8600533088#2091"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-generated-files.hmap -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-own-target-headers.hmap -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-all-target-headers.hmap -iquote /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-project-headers.hmap -F/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/include -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/DerivedSources/i386 -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/DerivedSources -include /var/folders/K8/K8hKTKBFH+ysXinbJJr04U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuizzGeoVin_Prefix-hibjfvuktqmdedfomyyjqouasmbw/QuizzGeoVin_Prefix.pch -c /Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/QuizzGeoVinAppDelegate.m -o /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/QuizzGeoVinAppDelegate.o0#
+
+CCompileC build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/RootViewController.o /Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315865786.423508
+e315865786.571820
+r1
+xCompileC
+xbuild/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/RootViewController.o
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/RootViewController.m315865786#315865786#0(0"0(0#0#73"/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/RootViewController.m8599351616#2083"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-generated-files.hmap -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-own-target-headers.hmap -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-all-target-headers.hmap -iquote /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-project-headers.hmap -F/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/include -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/DerivedSources/i386 -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/DerivedSources -include /var/folders/K8/K8hKTKBFH+ysXinbJJr04U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuizzGeoVin_Prefix-hibjfvuktqmdedfomyyjqouasmbw/QuizzGeoVin_Prefix.pch -c /Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/RootViewController.m -o /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/main.o /Users/amauryblanc/Documents/git/QuizzGeoVin/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315865786.348385
+e315865786.423376
+r1
+xCompileC
+xbuild/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/main.o
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/amauryblanc/Documents/git/QuizzGeoVin/main.m315865786#315865786#0(0"0(0#0#51"/Users/amauryblanc/Documents/git/QuizzGeoVin/main.m8598933952#2047"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-generated-files.hmap -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-own-target-headers.hmap -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-all-target-headers.hmap -iquote /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-project-headers.hmap -F/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/include -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/DerivedSources/i386 -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/DerivedSources -include /var/folders/K8/K8hKTKBFH+ysXinbJJr04U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuizzGeoVin_Prefix-hibjfvuktqmdedfomyyjqouasmbw/QuizzGeoVin_Prefix.pch -c /Users/amauryblanc/Documents/git/QuizzGeoVin/main.m -o /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/amauryblanc/Documents/git/QuizzGeoVin/MainWindow.xib
+s315865783.978377
+e315865784.950238
+r1
+xCompileXIB
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib315865783#315865784#0(0"0(0#0#59"/Users/amauryblanc/Documents/git/QuizzGeoVin/MainWindow.xib8604105248#592"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/MainWindow.nib /Users/amauryblanc/Documents/git/QuizzGeoVin/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/amauryblanc/Documents/git/QuizzGeoVin/RootViewController.xib
+s315865783.979574
+e315865784.948735
+r1
+xCompileXIB
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib315865783#315865784#0(0"0(0#0#67"/Users/amauryblanc/Documents/git/QuizzGeoVin/RootViewController.xib8603655008#608"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/RootViewController.nib /Users/amauryblanc/Documents/git/QuizzGeoVin/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app.dSYM /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin
+s315865786.747091
+e315865786.794625
+r1
+xGenerateDSYMFile
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app.dSYM
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/QuizzGeoVin.app.dSYM build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin315865786#315865786#0(0"0(0#0#100"/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin8604174304#413"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin -o /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app.dSYM0#
+
+CLd /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin normal i386
+s315865786.571953
+e315865786.746957
+r1
+xLd
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin
+xnormal
+xi386
+lSLF07#2@105"Link /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin315865786#315865786#0(0"0(0#0#0"8604203040#950"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator -F/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator -filelist /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/Objects-normal/i386/QuizzGeoVin.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/QuizzGeoVin0#
+
+CProcessInfoPlistFile /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/Info.plist QuizzGeoVin-Info.plist
+s315865783.945383
+e315865783.978227
+r1
+xProcessInfoPlistFile
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/Info.plist
+xQuizzGeoVin-Info.plist
+lSLF07#2@30"Process QuizzGeoVin-Info.plist315865783#315865783#0(0"0(0#0#67"/Users/amauryblanc/Documents/git/QuizzGeoVin/QuizzGeoVin-Info.plist31525614006435952#509"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility QuizzGeoVin-Info.plist -genpkginfo /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app/Info.plist0#
+
+CProcessPCH /var/folders/K8/K8hKTKBFH+ysXinbJJr04U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuizzGeoVin_Prefix-hibjfvuktqmdedfomyyjqouasmbw/QuizzGeoVin_Prefix.pch.gch QuizzGeoVin_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s315865784.950489
+e315865786.348128
+r1
+xProcessPCH
+x/var/folders/K8/K8hKTKBFH+ysXinbJJr04U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuizzGeoVin_Prefix-hibjfvuktqmdedfomyyjqouasmbw/QuizzGeoVin_Prefix.pch.gch
+xQuizzGeoVin_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile QuizzGeoVin_Prefix.pch315865784#315865786#0(0"0(0#0#67"/Users/amauryblanc/Documents/git/QuizzGeoVin/QuizzGeoVin_Prefix.pch8603192512#1929"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-generated-files.hmap -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-own-target-headers.hmap -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-all-target-headers.hmap -iquote /Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/QuizzGeoVin-project-headers.hmap -F/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/include -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/DerivedSources/i386 -I/Users/amauryblanc/Documents/git/QuizzGeoVin/build/QuizzGeoVin.build/Debug-iphonesimulator/QuizzGeoVin.build/DerivedSources -c /Users/amauryblanc/Documents/git/QuizzGeoVin/QuizzGeoVin_Prefix.pch -o /var/folders/K8/K8hKTKBFH+ysXinbJJr04U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuizzGeoVin_Prefix-hibjfvuktqmdedfomyyjqouasmbw/QuizzGeoVin_Prefix.pch.gch0#
+
+CTouch /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app
+s315865786.794749
+e315865786.798670
+r1
+xTouch
+x/Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app
+lSLF07#2@94"Touch /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app315865786#315865786#0(0"0(0#0#0"8603903072#294"    cd /Users/amauryblanc/Documents/git/QuizzGeoVin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/amauryblanc/Documents/git/QuizzGeoVin/build/Debug-iphonesimulator/QuizzGeoVin.app0#
+
