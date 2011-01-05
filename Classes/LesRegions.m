@@ -1,18 +1,16 @@
 //
-//  RootViewController.m
+//  LesRegions.m
 //  QuizzGeoVin
 //
-//  Created by amaury blanc on 11-01-04.
-//  Copyright __MyCompanyName__ 2011. All rights reserved.
+//  Created by amaury blanc on 11-01-05.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "RootViewController.h"
-//ABL on importe les controleurs de vue
-#import "Region.h"
 #import "LesRegions.h"
 
-@implementation RootViewController
 
+@implementation LesRegions
+@synthesize titre;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -22,16 +20,13 @@
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
-	monTableau = [[NSMutableArray alloc]init];
-    
-    //remplir mon tableau
-    [monTableau addObject:@"Les Régions du vin"];
-    [monTableau addObject:@"Par région"];
-    [monTableau addObject:@"...."];
-    
-    //titre fenetre qui s'affiche en haut
-    self.navigationItem.title = @"Quizz Geo Vin";
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	monTableauDeRegions = [[NSMutableArray alloc]init];
+	[monTableauDeRegions addObject:@"Bordeau"];
+    [monTableauDeRegions addObject:@"Pays de la Loire"];
+    [monTableauDeRegions addObject:@"...."];
+	//titre fenetre qui s'affiche en haut
+    self.navigationItem.title = titre;
 }
 
 
@@ -47,53 +42,51 @@
 */
 /*
 - (void)viewWillDisappear:(BOOL)animated {
-	[super viewWillDisappear:animated];
+    [super viewWillDisappear:animated];
 }
 */
 /*
 - (void)viewDidDisappear:(BOOL)animated {
-	[super viewDidDisappear:animated];
+    [super viewDidDisappear:animated];
 }
 */
-
 /*
- // Override to allow orientations other than the default portrait orientation.
+// Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
- */
+*/
 
 
 #pragma mark -
 #pragma mark Table view data source
 
-// Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
     return 1;
 }
 
 
-// Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	//ABL on met autant de ligne que dans notre menu
-    return [monTableau count];
+    // Return the number of rows in the section.
+    return [monTableauDeRegions count];
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	
+    
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-	// Configure the cell.
-    NSString *valeurDeLigne = [monTableau objectAtIndex:indexPath.row];
+    // Configure the cell...
+    
+    NSString *valeurDeLigne = [monTableauDeRegions objectAtIndex:indexPath.row];
     //Ma valeur textuel de ma cellule est egale a la valeur de ligne
     [cell.textLabel setText:valeurDeLigne];
     return cell;
@@ -114,11 +107,11 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        // Delete the row from the data source
+        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
+        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
 }
 */
@@ -144,28 +137,14 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	
-	
-	NSString *valeurDeLigne = [monTableau objectAtIndex:indexPath.row];
-
-	if (indexPath.row == 0) {
-		NSLog(@"numero de ligne %i",indexPath.row);
-		Region *vueRegion = [[Region alloc]initWithNibName:@"Region" bundle:nil];
-		vueRegion.monMenu = valeurDeLigne;
-		[self.navigationController pushViewController:vueRegion animated:YES];
-		[vueRegion release];
-	}
-	if (indexPath.row == 1) {
-		NSLog(@"numero de ligne %i",indexPath.row);
-		LesRegions *vueLesRegions = [[LesRegions alloc]initWithNibName:@"LesRegions" bundle:nil];
-		//vueLesRegions.monMenu = valeurDeLigne;
-		[self.navigationController pushViewController:vueLesRegions animated:YES];
-		[vueLesRegions release];
-	}
-
-	
-	
-
+    // Navigation logic may go here. Create and push another view controller.
+	/*
+	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     // ...
+     // Pass the selected object to the new view controller.
+	 [self.navigationController pushViewController:detailViewController animated:YES];
+	 [detailViewController release];
+	 */
 }
 
 
@@ -187,6 +166,7 @@
 
 - (void)dealloc {
     [super dealloc];
+	[self.titre release];
 }
 
 

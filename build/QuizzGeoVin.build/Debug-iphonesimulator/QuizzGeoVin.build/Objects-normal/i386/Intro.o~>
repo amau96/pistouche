@@ -1,0 +1,3 @@
+/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/Intro.m:14: error: no declaration of property 'monMenu' found in the interface
+/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/Intro.m: In function '-[Intro dealloc]':
+/Users/amauryblanc/Documents/git/QuizzGeoVin/Classes/Intro.m:57: error: request for member 'monMenu' in something not a structure or union
